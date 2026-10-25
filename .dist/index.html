@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lutfur Rahman — Flutter &amp; Backend Developer</title>
+  <meta name="description" content="Lutfur Rahman is a Flutter developer with practical Spring Boot and REST API experience, building mobile products that solve real problems.">
+  <meta name="theme-color" content="#0a1224">
+  <link rel="canonical" href="https://lutfur-rahman.netlify.app/">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lutfur Rahman — Flutter &amp; Backend Developer">
+  <meta property="og:description" content="Building mobile products that solve real problems. Flutter, Dart, Spring Boot, REST APIs.">
+  <meta property="og:url" content="https://lutfur-rahman.netlify.app/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lutfur Rahman — Flutter &amp; Backend Developer">
+  <meta name="twitter:description" content="Building mobile products that solve real problems.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lutfur Rahman",
+    "jobTitle": "Flutter Developer",
+    "url": "https://lutfur-rahman.netlify.app/",
+    "sameAs": ["https://github.com/rahman12181"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <div class="brand">
+        <button class="brand__photo-btn" type="button" data-profile-open aria-haspopup="dialog" aria-label="Open profile of Lutfur Rahman">
+          <img class="brand__photo" src="favicon-192.png" alt="" width="32" height="32">
+        </button>
+        <a class="brand__name" href="#top">Lutfur Rahman</a>
+      </div>
+      <nav id="site-nav" class="nav__links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#yourhome">YourHome</a>
+        <a href="#services">Services</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav__cta">Hire me</a>
+      </nav>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="wrap hero__inner">
+        <div class="hero__copy">
+          <p class="avail reveal-in" style="--d:0"><i aria-hidden="true"></i> Open to projects and full-time roles</p>
+          <h1 id="hero-title" class="hero__title">
+            <span class="line"><span style="--d:1">Building mobile</span></span>
+            <span class="line"><span style="--d:2">products that solve</span></span>
+            <span class="line"><span style="--d:3"><em>real problems.</em></span></span>
+          </h1>
+          <p class="hero__lede reveal-in" style="--d:4">
+            I'm Lutfur Rahman, a Flutter developer with hands-on Spring Boot and API experience.
+            I take an idea from requirements to a working app, with the backend, payments and
+            admin side included.
+          </p>
+          <div class="hero__actions reveal-in" style="--d:5">
+            <a class="btn btn--primary" href="#contact">Start a project</a>
+            <a class="btn btn--ghost" href="#work">See my work</a>
+            <a class="btn btn--link" data-resume href="resume.pdf" download>Download resume <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal-in" style="--d:3">
+          <div class="hero-stage" data-tilt>
+            <div class="pmock pmock--hero" id="hero-screens">
+              <img class="is-on" src="images/pioneer/03-location.webp" width="1080" height="1920" alt="Pioneer app home screen with punch in, punch out and total working hours">
+              <img src="images/pioneer/05-dashboard.webp" width="1080" height="1920" alt="Pioneer app attendance calendar for the month with a colour legend" loading="lazy">
+              <img src="images/pioneer/06-attendance.webp" width="1080" height="1920" alt="Pioneer app attendance logs with punch in and punch out times" loading="lazy">
+              <img src="images/pioneer/07-settings.webp" width="1080" height="1920" alt="Pioneer app settings screen with account and app settings" loading="lazy">
+            </div>
+            <div class="float float--a" aria-hidden="true"><b>150+</b><span>employees use it</span></div>
+            <div class="float float--b" aria-hidden="true"><b>Live</b><span>on Google Play</span></div>
+            <div class="float float--c" aria-hidden="true"><code>GET /attendance</code><span>ERPNext REST API</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUMBERS -->
+    <section class="band" aria-label="Highlights">
+      <div class="wrap">
+        <ul class="band__list">
+          <li><b data-count="150" data-suffix="+">150+</b><span>Employees using the Pioneer app</span></li>
+          <li><b data-count="150" data-suffix="+">150+</b><span>REST APIs built for YourHome</span></li>
+          <li><b data-count="79" data-suffix="">79</b><span>App screens shown on this page</span></li>
+          <li><b data-count="3" data-suffix="">3</b><span>Platforms: mobile, web, backend</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" id="marquee">
+        <span>Flutter</span><span>Dart</span><span>Java</span><span>Spring Boot</span><span>REST APIs</span><span>WebSocket / STOMP</span>
+        <span>MySQL</span><span>MongoDB</span><span>Firebase</span><span>Razorpay</span><span>Cloudinary</span><span>Google Maps</span><span>ERPNext</span><span>Next.js</span><span>AWS</span>
+      </div>
+    </div>
+
+    <!-- WORK -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker">Selected work</p>
+          <h2 id="work-title">Two products, two kinds of problem.</h2>
+          <p class="section__intro">One is a business app in daily use. The other is a startup product I'm building end to end.</p>
+        </header>
+
+        <!-- Project A: Pioneer -->
+        <article class="case reveal" id="pioneer">
+          <div class="case__media">
+            <div class="shots">
+              <div class="pmock"><img src="images/pioneer/01-splash.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app login screen with email and password fields"></div>
+              <div class="pmock"><img src="images/pioneer/03-location.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app home screen with punch in, punch out and total working hours"></div>
+              <div class="pmock"><img src="images/pioneer/05-dashboard.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app attendance calendar with colour-coded days"></div>
+            </div>
+            <p class="caption">Screens from the working app.</p>
+          </div>
+
+          <div class="case__body">
+            <p class="meta"><span class="status status--live">In use by 150+ employees</span> <span>Flutter, Dart, ERPNext</span></p>
+            <div class="case__title">
+              <span class="logo-tile"><img src="images\pioneer\logo (1).png" width="64" height="64" alt="Pioneer app logo"></span>
+              <h3>Pioneer Employee Attendance App</h3>
+            </div>
+            <p class="lead">A cross-platform business app that connects employees to their company's ERPNext system for attendance and everyday HR requests.</p>
+
+            <dl class="facts">
+              <div>
+                <dt>The problem</dt>
+                <dd>Attendance and HR requests need to be recorded reliably and tied to the systems the business already runs on, not tracked separately.</dd>
+              </div>
+              <div>
+                <dt>The solution</dt>
+                <dd>A Flutter app that talks to ERPNext through its REST APIs, so employee actions land in the company's existing system.</dd>
+              </div>
+              <div>
+                <dt>My contribution</dt>
+                <dd>I worked on the Flutter and Dart application and its ERPNext API integration, including authentication, profile, attendance and request workflows.</dd>
+              </div>
+            </dl>
+
+            <ul class="ticks">
+              <li>Employee authentication and profile management</li>
+              <li>GPS-based attendance check-in and check-out</li>
+              <li>Attendance and employee-related services</li>
+              <li>Leave, travel and advance workflows</li>
+            </ul>
+
+            <ul class="chips" aria-label="Technology">
+              <li>Flutter</li><li>Dart</li><li>ERPNext REST API</li><li>GPS / location</li>
+            </ul>
+
+            <div class="case__links">
+              <a class="btn btn--outline" href="https://play.google.com/store/apps/details?id=com.rahman.pioneer_app" target="_blank" rel="noopener">View on Google Play <span aria-hidden="true">↗</span></a>
+            </div>
+
+            <p class="note">Screens are taken from the working app. API endpoints and internal company details are not shown.</p>
+          </div>
+        </article>
+
+        <div class="gallery reveal">
+          <h4 class="gallery__title">All Pioneer app screens</h4>
+          <div class="gallery__track" role="region" aria-label="Pioneer app screens, scroll sideways to see more" tabindex="0">
+            <div class="pmock"><img src="images/pioneer/01-splash.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app login screen with email and password fields"></div>
+            <div class="pmock"><img src="images/pioneer/02-login.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app settings screen with account and app settings"></div>
+            <div class="pmock"><img src="images/pioneer/03-location.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app home screen with punch in, punch out and total working hours"></div>
+            <div class="pmock"><img src="images/pioneer/04-home.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app leave dashboard with allocated and remaining days"></div>
+            <div class="pmock"><img src="images/pioneer/05-dashboard.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app attendance calendar with colour-coded days and a legend"></div>
+            <div class="pmock"><img src="images/pioneer/06-attendance.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app attendance logs with punch in and punch out times"></div>
+            <div class="pmock"><img src="images/pioneer/07-settings.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app settings screen with account and app settings"></div>
+            <div class="pmock"><img src="images/pioneer/08-travel-list.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app profile screen with work information"></div>
+            <div class="pmock"><img src="images/pioneer/09-travel-pending.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 9"></div>
+            <div class="pmock"><img src="images/pioneer/10-travel-details.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 10"></div>
+            <div class="pmock"><img src="images/pioneer/11-travel-draft.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 11"></div>
+            <div class="pmock"><img src="images/pioneer/12-travel-details-2.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 12"></div>
+            <div class="pmock"><img src="images/pioneer/13-create-request.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 13"></div>
+            <div class="pmock"><img src="images/pioneer/14-new-request.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 14"></div>
+            <div class="pmock"><img src="images/pioneer/15-submit-request.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 15"></div>
+            <div class="pmock"><img src="images/pioneer/16-error-state.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 16"></div>
+            <div class="pmock"><img src="images/pioneer/17-leave-balance.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 17"></div>
+            <div class="pmock"><img src="images/pioneer/18-notifications.webp" width="1080" height="1920" loading="lazy" alt="Pioneer app screen 18"></div>
+          </div>
+          <p class="caption">Scroll sideways to see every screen.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT B: YOURHOME (full showcase) -->
+    <section class="section section--dark product" id="yourhome" aria-labelledby="yh-title">
+      <div class="product__glow" aria-hidden="true"></div>
+      <div class="wrap">
+
+        <div class="product__hero reveal">
+          <div class="product__logo">
+            <img src="images/yourhome/logo.png" width="220" height="220" alt="YourHome app logo, a house with a heart-shaped pin">
+          </div>
+          <div class="product__intro">
+            <p class="kicker">Startup product, built end to end</p>
+            <h2 id="yh-title">YourHome <span class="muted">(Nestora)</span></h2>
+            <p class="product__tag">Find a place that feels like home.</p>
+            <p class="product__lede">A student accommodation and property platform. Tenants discover PGs, rooms and flats, owners manage and promote their listings, and admins track the whole business. One backend, a Flutter app and a Next.js website, working together.</p>
+            <p class="meta meta--light"><span class="status status--build">In active development</span> <span>Flutter, Spring Boot, Next.js</span></p>
+          </div>
+        </div>
+
+        <ul class="stats reveal" aria-label="YourHome at a glance">
+          <li><b>150+</b><span>Secure REST APIs</span></li>
+          <li><b>3</b><span>User roles: tenant, owner, admin</span></li>
+          <li><b>3</b><span>Platforms: mobile, web, backend</span></li>
+          <li><b>61</b><span>App screens shown below</span></li>
+        </ul>
+
+        <dl class="facts facts--light reveal">
+          <div>
+            <dt>The problem</dt>
+            <dd>Students and working people looking for accommodation search across scattered sources, with little trust and no easy way to compare. Owners lack a simple way to present, promote and manage their listings.</dd>
+          </div>
+          <div>
+            <dt>The solution</dt>
+            <dd>One connected product with separate experiences for tenants, owners and admins: search with maps, rich photo and video listings, real-time chat, and paid plans that give owners visibility and tenants access.</dd>
+          </div>
+          <div>
+            <dt>My contribution</dt>
+            <dd>Everything: product thinking, the Spring Boot backend, the Flutter app, the Next.js web frontend, payments and integrations. A solo-founder build across the full stack.</dd>
+          </div>
+        </dl>
+
+        <header class="sub-head reveal">
+          <p class="kicker">What the product does</p>
+          <h3>Features that make it a real product.</h3>
+        </header>
+
+        <div class="feat-grid">
+          <article class="feat reveal">
+            <span class="feat__icon" aria-hidden="true">⌕</span>
+            <h4>Smart property discovery</h4>
+            <p>Browse listings with location pins on Google Maps using latitude and longitude, so users see where a place really is.</p>
+            <span class="badge badge--ok">Built</span>
+          </article>
+          <article class="feat reveal">
+            <span class="feat__icon" aria-hidden="true">▣</span>
+            <h4>Photo and video tours</h4>
+            <p>Owners upload property images and video tours, giving tenants a proper look before they visit.</p>
+            <span class="badge badge--ok">Built</span>
+          </article>
+          <article class="feat reveal">
+            <span class="feat__icon" aria-hidden="true">✉</span>
+            <h4>Real-time chat</h4>
+            <p>WebSocket (STOMP) messaging between tenant and owner, with edit and delete message support.</p>
+            <span class="badge badge--ok">Built</span>
+          </article>
+          <article class="feat reveal">
+            <span class="feat__icon" aria-hidden="true">₹</span>
+            <h4>Property access plans</h4>
+            <p>Tiered subscription plans that unlock property access, with Razorpay payments and automatic expiry handling.</p>
+            <span class="badge badge--ok">Built</span>
+          </article>
+          <article class="feat reveal">
+            <span class="feat__icon" aria-hidden="true">↑</span>
+            <h4>Listing ranking boost</h4>
+            <p>Owners on higher listing plans rank higher in results, a clear revenue model for the platform.</p>
+            <span class="badge badge--ok">Built</span>
+          </article>
+          <article class="feat reveal">
+            <span class="feat__icon" aria-hidden="true">◧</span>
+            <h4>Owner panel</h4>
+            <p>Owners add, edit and promote properties, track their plans and talk to interested tenants from one place.</p>
+            <span class="badge badge--ok">Built</span>
+          </article>
+          <article class="feat reveal">
+            <span class="feat__icon" aria-hidden="true">▤</span>
+            <h4>Admin dashboards</h4>
+            <p>Revenue dashboards that split income by subscription type, plus tools to manage users and listings.</p>
+            <span class="badge badge--ok">Built</span>
+          </article>
+          <article class="feat reveal">
+            <span class="feat__icon" aria-hidden="true">▶</span>
+            <h4>Reels-style video discovery</h4>
+            <p>A swipe-through feed of short property videos for the user panel, in the style of Instagram Reels.</p>
+            <span class="badge badge--wip">In design</span>
+          </article>
+        </div>
+
+        <header class="sub-head reveal">
+          <p class="kicker">Under the hood</p>
+          <h3>Architecture and stack.</h3>
+        </header>
+
+        <div class="arch reveal">
+          <div class="arch__col">
+            <h4>Flutter app</h4>
+            <p>Tenant and owner experience: auth, search, maps, chat, media, plans.</p>
+          </div>
+          <span class="arch__link" aria-hidden="true">⇄</span>
+          <div class="arch__col arch__col--core">
+            <h4>Spring Boot 3.5 backend</h4>
+            <p>150+ secure REST APIs, WebSocket/STOMP chat, Spring Scheduler jobs, Razorpay billing.</p>
+          </div>
+          <span class="arch__link" aria-hidden="true">⇄</span>
+          <div class="arch__col">
+            <h4>Next.js website</h4>
+            <p>Web frontend for discovery and the owner and admin panels.</p>
+          </div>
+        </div>
+
+        <ul class="chips chips--dark" aria-label="Technology used in YourHome">
+          <li>Flutter</li><li>Dart</li><li>Java</li><li>Spring Boot 3.5</li><li>REST APIs</li>
+          <li>WebSocket / STOMP</li><li>MySQL</li><li>Next.js</li><li>Razorpay</li>
+          <li>Cloudinary</li><li>Google Maps</li><li>Spring Scheduler</li><li>AWS</li>
+        </ul>
+
+        <div class="case__links">
+          <a class="btn btn--primary" href="https://github.com/rahman12181" target="_blank" rel="noopener">See my code on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="btn btn--ghost" href="#contact">Talk about this product</a>
+        </div>
+
+        <!-- 61 SCREENS (filled by main.js from images/yourhome/yourhome1 ... yourhome61) -->
+        <div class="yh-gallery reveal">
+          <div class="yh-gallery__head">
+            <div>
+              <p class="kicker">App screens</p>
+              <h3>Inside the YourHome app.</h3>
+            </div>
+            <div class="yh-gallery__ctrl">
+              <button type="button" class="arrow" data-yh-prev aria-label="Scroll screens left">←</button>
+              <button type="button" class="arrow" data-yh-next aria-label="Scroll screens right">→</button>
+            </div>
+          </div>
+          <div class="yh-track" id="yh-track" role="region" aria-label="YourHome app screens, scroll sideways to see more" tabindex="0"></div>
+          <p class="caption caption--light">Tap any screen to view it larger. Use the arrow keys to move between screens.</p>
+          <noscript><p class="note note--light">Enable JavaScript to see the YourHome app screens.</p></noscript>
+        </div>
+
+        <p class="note note--light reveal">YourHome is a product in active development. Screens are from the working build; features marked "In design" are planned, not shipped.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services" aria-labelledby="svc-title">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker">How I can help you</p>
+          <h2 id="svc-title">From idea to a working app.</h2>
+          <p class="section__intro">If you have a business workflow or a product idea, I can build the app, the backend behind it and the admin side that keeps it running.</p>
+        </header>
+
+        <div class="svc">
+          <article class="svc__item reveal">
+            <span class="svc__icon" aria-hidden="true">▢</span>
+            <h3>Mobile apps with Flutter</h3>
+            <p>Android and iOS apps from one codebase: sign-in, maps and GPS, notifications, payments and media.</p>
+            <ul class="chips"><li>Flutter</li><li>Dart</li><li>Firebase</li></ul>
+          </article>
+          <article class="svc__item reveal">
+            <span class="svc__icon" aria-hidden="true">⌘</span>
+            <h3>Backend and REST APIs</h3>
+            <p>Secure Spring Boot APIs with MySQL, real-time chat, scheduled jobs and role-based access.</p>
+            <ul class="chips"><li>Java</li><li>Spring Boot</li><li>MySQL</li></ul>
+          </article>
+          <article class="svc__item reveal">
+            <span class="svc__icon" aria-hidden="true">⇄</span>
+            <h3>Business integrations</h3>
+            <p>Connect your app to the tools you already use: ERPNext, Razorpay payments, Google Maps and Cloudinary.</p>
+            <ul class="chips"><li>ERPNext</li><li>Razorpay</li><li>Google Maps</li></ul>
+          </article>
+          <article class="svc__item reveal">
+            <span class="svc__icon" aria-hidden="true">↗</span>
+            <h3>MVP to launch</h3>
+            <p>A first version your users can actually try: app, backend and admin dashboard, ready to deploy.</p>
+            <ul class="chips"><li>Flutter</li><li>Next.js</li><li>AWS</li></ul>
+          </article>
+        </div>
+
+        <div class="svc__cta reveal">
+          <a class="btn btn--primary" href="#contact">Discuss your project</a>
+          <p>Tell me what you want to build and who will use it. I'll reply with how I would approach it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="section section--tint" id="expertise" aria-labelledby="exp-title">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker">Technical expertise</p>
+          <h2 id="exp-title">What I work with.</h2>
+          <p class="section__intro">Grouped by the job each tool does, with the focus areas first.</p>
+        </header>
+
+        <div class="grid">
+          <section class="card reveal">
+            <h3>Mobile development</h3>
+            <p class="card__tag card__tag--core">Core focus</p>
+            <ul class="chips"><li>Flutter</li><li>Dart</li></ul>
+            <p>Cross-platform apps built around real workflows such as location-aware attendance and business requests.</p>
+          </section>
+          <section class="card reveal">
+            <h3>Backend &amp; API integration</h3>
+            <p class="card__tag card__tag--core">Core focus</p>
+            <ul class="chips"><li>Java</li><li>Spring Boot</li><li>REST APIs</li><li>Hibernate</li><li>ERPNext API</li></ul>
+            <p>Building and consuming REST APIs, including integrating a Flutter client with ERPNext.</p>
+          </section>
+          <section class="card reveal">
+            <h3>Databases</h3>
+            <p class="card__tag">Working knowledge</p>
+            <ul class="chips"><li>MySQL</li><li>MongoDB</li><li>Firebase</li></ul>
+            <p>Relational, document and managed data stores, chosen to fit the problem.</p>
+          </section>
+          <section class="card reveal">
+            <h3>Cloud &amp; integrations</h3>
+            <p class="card__tag">Working knowledge</p>
+            <ul class="chips"><li>AWS</li><li>Cloudinary</li><li>Razorpay</li><li>Firebase Cloud Messaging</li></ul>
+            <p>Payments, media handling, notifications and hosting for product work.</p>
+          </section>
+          <section class="card reveal">
+            <h3>Tools &amp; workflow</h3>
+            <p class="card__tag">Daily use</p>
+            <ul class="chips"><li>Git</li><li>GitHub</li></ul>
+            <p>Version control and collaboration for every project.</p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience" aria-labelledby="xp-title">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker">Experience and impact</p>
+          <h2 id="xp-title">Real-world application work.</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__when">Pioneer</div>
+            <div class="timeline__what">
+              <h3>Mobile application development</h3>
+              <p>Worked on a Flutter and Dart attendance application integrated with ERPNext, now used by 150+ employees.</p>
+              <ul class="ticks">
+                <li>Integrated the app with ERPNext REST APIs for attendance and employee services</li>
+                <li>Worked on authentication, profile management and GPS-based check-in and check-out</li>
+                <li>Supported leave, travel and advance workflows in a practical business setting</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__when">Ongoing</div>
+            <div class="timeline__what">
+              <h3>YourHome / Nestora</h3>
+              <p>Building a startup product across Flutter, Spring Boot and Next.js, from problem definition to integrations.</p>
+              <ul class="ticks">
+                <li>Designed and built 150+ secure REST APIs on Spring Boot 3.5</li>
+                <li>Real-time chat, subscription plans with Razorpay, listing ranking and admin revenue dashboards</li>
+                <li>Property media uploads with photos and video tours, plus Google Maps location</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--dark" id="about" aria-labelledby="about-title">
+      <div class="wrap about">
+        <header class="reveal">
+          <p class="kicker">About</p>
+          <h2 id="about-title">From computer engineering to shipping apps.</h2>
+        </header>
+        <div class="about__text reveal">
+          <p>I started with a diploma in Computer Engineering, where I learned the fundamentals, and I'm now completing a B.Tech in Computer Science and Engineering.</p>
+          <p>Along the way I found that I enjoy mobile development most, because an app is where code meets real people. Working on a business attendance app taught me how much of the job is dependable integration: authentication, location, APIs and clear error handling.</p>
+          <p>Now I'm extending that into whole products, with a backend, a website and a mobile client working together. I'm looking for a team where I can keep building real software and learning from the people around me.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="section" id="approach" aria-labelledby="ap-title">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker">Engineering approach</p>
+          <h2 id="ap-title">How I build.</h2>
+        </header>
+        <ol class="steps">
+          <li class="reveal"><h3>Understand the requirement</h3><p>Start from the workflow and who relies on it. For attendance, that means what counts as a valid check-in before any screen is drawn.</p></li>
+          <li class="reveal"><h3>Design reliable mobile experiences</h3><p>Plan for poor connectivity, denied permissions and slow responses, because real users meet them daily.</p></li>
+          <li class="reveal"><h3>Integrate APIs and data</h3><p>Keep the client and backend contract explicit, and keep data handling in one place rather than scattered through screens.</p></li>
+          <li class="reveal"><h3>Handle authentication and errors</h3><p>Treat sign-in, expired sessions and failed requests as first-class states, with clear messages instead of silent failures.</p></li>
+          <li class="reveal"><h3>Write maintainable code</h3><p>Separate UI, state and data access, and use consistent naming so the next person can change it safely.</p></li>
+          <li class="reveal"><h3>Test and improve</h3><p>Check behaviour on real devices, fix what breaks, and tune what feels slow.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section--tint section--compact" id="education" aria-labelledby="edu-title">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker">Education</p>
+          <h2 id="edu-title" class="h-sm">Education</h2>
+        </header>
+        <div class="edu">
+          <article class="edu__item reveal">
+            <p class="edu__year">Expected 2027</p>
+            <h3>B.Tech, Computer Science and Engineering</h3>
+            <p>Lateral entry · Galgotias University · currently pursuing</p>
+          </article>
+          <article class="edu__item reveal">
+            <p class="edu__year">2024</p>
+            <h3>Diploma in Computer Engineering</h3>
+            <p>Maulana Azad National Urdu University, Hyderabad · CGPA 8.9</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact__grid reveal">
+        <div class="contact__copy">
+          <p class="kicker kicker--light">Contact</p>
+          <h2 id="contact-title">Let's build something useful.</h2>
+          <p class="contact__lede">I'm open to Flutter and backend projects, full-time roles, and conversations with founders and teams building real products.</p>
+          <div class="contact__links">
+            <a class="btn btn--primary" data-email hidden href="#">Email me</a>
+            <a class="btn btn--wa" data-whatsapp hidden href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+            <a class="btn btn--ghost-light" href="https://github.com/rahman12181" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn--ghost-light" data-linkedin hidden href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn--ghost-light" data-resume href="resume.pdf" download>Resume</a>
+          </div>
+          <p class="contact__hint" data-contact-hint>Add your email, WhatsApp number and LinkedIn in the CONFIG block at the top of main.js and the buttons will appear here.</p>
+        </div>
+
+        <!-- Message form: Netlify Forms collects these after you deploy on Netlify -->
+        <form class="msg" id="msg-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p hidden><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <h3 class="msg__title">Send me a message</h3>
+          <p class="msg__sub">Tell me what you want to build. I read every message.</p>
+
+          <label class="msg__field">
+            <span>Your name</span>
+            <input type="text" name="name" autocomplete="name" required maxlength="80">
+          </label>
+          <label class="msg__field">
+            <span>Email or WhatsApp number</span>
+            <input type="text" name="reply_to" autocomplete="email" required maxlength="120" placeholder="Where should I reply?">
+          </label>
+          <label class="msg__field">
+            <span>What do you need?</span>
+            <select name="need">
+              <option>Mobile app (Flutter)</option>
+              <option>Backend and APIs</option>
+              <option>App plus backend</option>
+              <option>Full-time role</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label class="msg__field">
+            <span>Message</span>
+            <textarea name="message" rows="5" required minlength="10" maxlength="2000" placeholder="A few lines about your idea, users and timeline"></textarea>
+          </label>
+
+          <button class="btn btn--primary msg__send" type="submit">Send message</button>
+          <p class="msg__status" id="msg-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year">2026</span> Lutfur Rahman</p>
+      <p><a href="https://lutfur-rahman.netlify.app/">lutfur-rahman.netlify.app</a></p>
+    </div>
+  </footer>
+
+  <!-- Profile dialog -->
+  <dialog class="profile" id="profile" aria-labelledby="profile-name">
+    <form method="dialog">
+      <button class="profile__close" aria-label="Close profile">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      </button>
+    </form>
+    <img class="profile__photo" src="images/profile.webp" width="640" height="640" alt="Portrait of Lutfur Rahman">
+    <div class="profile__body">
+      <h2 id="profile-name">Lutfur Rahman</h2>
+      <p class="profile__role">Flutter Developer · REST API Engineer</p>
+      <p class="profile__text">Flutter-focused developer with practical backend and API integration experience, building mobile products that solve real problems.</p>
+      <div class="profile__actions">
+        <a class="btn btn--primary" href="#contact" data-profile-close>Contact me</a>
+        <a class="btn btn--outline" href="https://github.com/rahman12181" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Screen viewer: the screen opens inside a large phone frame -->
+  <dialog class="lightbox" id="lightbox" aria-label="App screen viewer">
+    <button type="button" class="lightbox__btn lightbox__close" data-lb-close aria-label="Close viewer">✕</button>
+    <button type="button" class="lightbox__btn lightbox__prev" data-lb-prev aria-label="Previous screen">←</button>
+    <figure class="lightbox__fig">
+      <div class="device device--lg" id="lb-device">
+        <span class="device__screen"><img id="lb-img" alt=""></span>
+      </div>
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+    <button type="button" class="lightbox__btn lightbox__next" data-lb-next aria-label="Next screen">→</button>
+  </dialog>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
